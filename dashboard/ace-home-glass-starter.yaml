@@ -1,0 +1,48 @@
+title: Ace Home
+views:
+  - title: Home
+    path: home
+    icon: mdi:home-variant
+    theme: Ace Home Glass
+    type: sections
+    max_columns: 4
+    sections:
+      - type: grid
+        cards:
+          - type: heading
+            heading: Home at a glance
+            heading_style: title
+            icon: mdi:home-analytics
+          - type: tile
+            entity: sun.sun
+            name: Daylight
+          - type: tile
+            entity: weather.forecast_home
+            name: Weather
+      - type: grid
+        cards:
+          - type: heading
+            heading: Lighting
+            icon: mdi:lightbulb-group
+          - type: markdown
+            content: >
+              Populate this section with the live-verified room light entities
+              during deployment. Do not guess entity IDs.
+      - type: grid
+        cards:
+          - type: heading
+            heading: Media & remote
+            icon: mdi:remote-tv
+          - type: markdown
+            content: >
+              Bind media keys and D-pad actions only to the verified media player
+              and remote entities from the live installation.
+      - type: grid
+        cards:
+          - type: heading
+            heading: Cameras & room health
+            icon: mdi:cctv
+          - type: markdown
+            content: >
+              Add verified camera entities and bedroom-node telemetry after the
+              live entity audit. Never embed credentials in stream URLs.

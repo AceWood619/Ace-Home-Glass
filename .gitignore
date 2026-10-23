@@ -1,0 +1,16 @@
+.DS_Store
+Thumbs.db
+.env
+.env.*
+*.secret
+secrets.yaml
+*.token
+*token*.txt
+*password*
+*credential*
+*.bak
+*.bak-*
+Diagnostics/
+private/
+*.json
+!package.json
