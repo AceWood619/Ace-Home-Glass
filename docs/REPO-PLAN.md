@@ -1,4 +1,4 @@
-﻿# Repository plan
+# Repository plan
 
 ## Public release: `Ace-Home-Glass`
 Contains reusable theme tokens, generic dashboard starter, Raspberry Pi 5 kiosk guidance, validation checklist, and security guidance. The public package must remain installation-agnostic.
